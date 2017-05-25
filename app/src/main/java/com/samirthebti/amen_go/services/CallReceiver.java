@@ -25,7 +25,7 @@ import io.realm.Realm;
 
 public class CallReceiver extends PhoneStateReceiver {
     public static final String TAG = CallReceiver.class.getSimpleName();
-
+    public static final int TIME_TO_END_THE_CALL = 20000;
     private boolean autorised = false;
     private MyContact myContact;
     private Handler handler = new Handler();
@@ -85,9 +85,7 @@ public class CallReceiver extends PhoneStateReceiver {
                         e.printStackTrace();
                     }
                 }
-            }, 20000);
-
-
+            }, TIME_TO_END_THE_CALL);
         }
     }
 

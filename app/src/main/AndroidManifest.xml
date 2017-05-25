@@ -34,6 +34,7 @@
         </activity>
         <activity
             android:name=".services.MyGpsDialog"
+            android:launchMode="singleTop"
             android:theme="@style/Theme.Transparent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -69,7 +70,7 @@
         <receiver
             android:name=".services.GpsReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true"/>
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="2c30c811375be5b53efab18c09d1f8bdbaa23ba7" />

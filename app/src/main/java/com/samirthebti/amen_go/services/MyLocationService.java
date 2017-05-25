@@ -94,7 +94,7 @@ public class MyLocationService extends Service {
         public void onLocationChanged(Location location) {
             Log.v("Debug", "in onLocation changed..");
             if (location != null) {
-                locManager.removeUpdates(locListener);
+               // locManager.removeUpdates(locListener);
                 //String Speed = "Device Speed: " +location.getSpeed();
                 lat_new = location.getLongitude();
                 lon_new = location.getLatitude();
