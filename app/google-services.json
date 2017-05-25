@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "110212821611",
+    "firebase_url": "https://amengo-67309.firebaseio.com",
+    "project_id": "amengo-67309",
+    "storage_bucket": "amengo-67309.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110212821611:android:973d7430709ff46a",
+        "android_client_info": {
+          "package_name": "com.samirthebti.amen_go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110212821611-7vmi7lhm46s3o7flfbct1poed3t189tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samirthebti.amen_go",
+            "certificate_hash": "b2fc145925cf84221de87e4784adf0d2d8d97936"
+          }
+        },
+        {
+          "client_id": "110212821611-2r4r0ntbrg2ejpthighpb1f8eikggtte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs2DH4o2nJ1QtgFOXLX9NLHSAy-41BNnI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110212821611-2r4r0ntbrg2ejpthighpb1f8eikggtte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
